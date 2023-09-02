@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-title">
+        <p id="edit_title{id}"data-id="{id}"  data-content="{title}" >{title}</p>
+        <form method="get" action="/delete/{id}">
+            <button type="submit">x</button>
+        </form>
+    </div>
+    <div class="card-content">
+        <p id="edit_content{id}" data-id="{id}" data-content="{content}" >{content}</p>
+    </div>
+    <form   action="/reenvio/{id}">
+    <button  type="submit"  class="btn edit-button" data-id="{id}">Editar</button>
+    </form>
+    
+</div>
