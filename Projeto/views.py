@@ -5,7 +5,7 @@ from urllib.parse import unquote_plus
 def index(request):
     
     
-    db= Database('data/banco')
+    db= Database('/data/banco')
     verifica=extract_route(request)
     if request.startswith('POST') and 'update' not in verifica:
         print(request)

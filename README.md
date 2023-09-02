@@ -1,1 +1,2 @@
 # Projeto1a
+Nesse repositorio eu encontrei problemar para todar a pagina, acredito que eles estejam relacionados há alguma instalação no python que acabou dando erro. Caso vc encontre também esse problema, por favor tentar o arquivo do repositorio https://github.com/Selber-codes/Projeto1.git
